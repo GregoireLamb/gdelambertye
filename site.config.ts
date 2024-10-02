@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Gregoire de Lamertye',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
+  domain: 'gregoire-de-lambertye',
   author: 'Gregoire de Lamertye',
 
   // open graph metadata (optional)
