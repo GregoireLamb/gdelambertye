@@ -114,6 +114,10 @@
   color: #0077b5;
 }
 
+.mail:hover {
+  color: #DB4437;
+}
+
 .newsletter:hover {
   color: #777777;
 }

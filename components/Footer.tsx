@@ -3,6 +3,7 @@ import * as React from 'react'
 import { FaEnvelopeOpenText } from '@react-icons/all-files/fa/FaEnvelopeOpenText'
 import { FaGithub } from '@react-icons/all-files/fa/FaGithub'
 import { FaLinkedin } from '@react-icons/all-files/fa/FaLinkedin'
+import { MdMail } from "react-icons/md";
 import { FaMastodon } from '@react-icons/all-files/fa/FaMastodon'
 import { FaTwitter } from '@react-icons/all-files/fa/FaTwitter'
 import { FaYoutube } from '@react-icons/all-files/fa/FaYoutube'
@@ -109,6 +110,18 @@ export const FooterImpl: React.FC = () => {
             rel='noopener noreferrer'
           >
             <FaLinkedin />
+          </a>
+        )}
+
+        {config.mail && (
+          <a
+            className={styles.mail}
+            href={`mailto:${config.mail}`}
+            title={config.mail}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <MdMail />
           </a>
         )}
 

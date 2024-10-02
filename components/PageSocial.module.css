@@ -93,6 +93,13 @@
   border-color: #0077b5;
 }
 
+.mail .actionBgPane {
+  background: #DB4437;
+}
+.mail:hover {
+  border-color: #DB4437;
+}
+
 .github .actionBgPane {
   background: #c9510c;
 }
