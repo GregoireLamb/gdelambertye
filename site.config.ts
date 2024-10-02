@@ -20,7 +20,7 @@ export default siteConfig({
   // twitter: 'transitive_bs',
   github: 'GregoireLamb',
   linkedin: 'gdelambertye',
-  email: 'gregoire.delambertye@gmail.com'
+  mail: 'gregoire.delambertye@gmail.com'
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
