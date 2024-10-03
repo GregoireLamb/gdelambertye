@@ -101,6 +101,10 @@
   filter: none;
 }
 
+.notion-collection-header-title {
+  font-size: 1em;
+}
+
 .notion-collection-card:hover .notion-collection-card-cover {
   filter: brightness(120%);
 }
